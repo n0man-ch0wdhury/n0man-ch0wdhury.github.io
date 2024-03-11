@@ -5,9 +5,9 @@ const CONFIG = {
     username: 'n0man-ch0wdhury', // Your GitHub org/user name. (This is the only required config)
   },
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
+   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/n0man-ch0wdhury/n0man-ch0wdhury.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * for example your repository is at https://github.com/n0man-ch0wdhury/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
   projects: {
@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['n0man-ch0wdhury/my-project1', 'n0man-ch0wdhury/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['n0man-ch0wdhury/gitprofile', 'n0man-ch0wdhury/pandora'], // List of repository names to display. example: ['n0man-ch0wdhury/my-project1', 'n0man-ch0wdhury/my-project2']
       },
     },
     external: {
@@ -63,15 +63,15 @@ const CONFIG = {
     researchGate: '',
     facebook: 'ncm007',
     instagram: 'lost_in__the_echo',
-    youtube: '@iamnoman', // example: 'pewdiepie'
+    youtube: 'iamnoman', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
     medium: 'n0man-ch0wdhury',
-    dev: '',
+    dev: 'n0man_ch0wdhury',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    skype: 'd4rk_sp1r1t',
     telegram: 'n0man_ch0wdhury',
-    website: 'https://',
+    website: 'https://linktr.ee/n0man_ch0wdhury',
     phone: '',
     email: 'noman007.cse@gmail.com',
   },
@@ -230,7 +230,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/n0man-ch0wdhury/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
