@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Github Repos',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -77,13 +77,16 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1hkbIIXLwfZHLwFz-uJ15XB1Xkk60IPYp/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1vj_CcJO8X2y4gCSxHl-2Nym-mdHHbUSn/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C',
     'C++',
     'Java',
+    'HTML',
     'CSS',
+    'Bootstrap',
+    'React',
     'JavaScript',
     'PHP',
     'Python',
@@ -95,19 +98,19 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'BatteryLow Interactive Ltd.',
+      position: 'Web Developer Intern',
+      from: 'May 2024',
+      to: 'July 2024',
+      companyLink: 'https://batterylowinteractive.com/',
     },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    // {
+    //   company: 'Company Name',
+    //   position: 'Position',
+    //   from: 'July 2019',
+    //   to: 'August 2021',
+    //   companyLink: 'https://example.com',
+    // },
   ],
   certifications: [
     {
@@ -121,8 +124,8 @@ const CONFIG = {
     {
       institution: 'Green University of Bangladesh',
       degree: 'BSc. in Computer Science and Engineering',
-      from: '2020',
-      to: '2024',
+      from: 'February, 2020',
+      to: 'July, 2024',
     },
     {
       institution: 'Birganj Government College',
@@ -133,23 +136,15 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
+      title: 'Optimizing_Carboxymethyl_Cellulose__CMC__Production__A_Metaheuristic_Algorithm_Approach',
+      conferenceName: 'Yet To Publish',
+      journalName: 'Yet To Publish',
+      authors: 'Noman Chowdhury Munna, Zahid Hasan Mozumder, Saurav Chandra Das, Prof. Dr. Md. Saiful Azad',
       link: 'https://example.com',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+    
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
