@@ -136,7 +136,7 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Optimizing_Carboxymethyl_Cellulose__CMC__Production__A_Metaheuristic_Algorithm_Approach',
+      title: 'Optimizing Carboxymethyl Cellulose CMC Production A Metaheuristic Algorithm Approach',
       conferenceName: 'Yet To Publish',
       journalName: 'Yet To Publish',
       authors: 'Noman Chowdhury Munna, Zahid Hasan Mozumder, Saurav Chandra Das, Prof. Dr. Md. Saiful Azad',
