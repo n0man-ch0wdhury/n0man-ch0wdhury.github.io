@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Noman Chowdhury Munna',
+    title: 'Noman Chowdhury Munna',
     description: '',
     imageURL: '',
   },
