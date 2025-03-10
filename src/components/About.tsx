@@ -17,7 +17,7 @@ const About = () => {
                   I am a passionate problem solver with experience in solving 1800+ competitive programming problems and competing in 140+ contests, including ICPC Dhaka Regional (2021–2024) and NCPC 2024. I have hands-on experience in full-stack development, AI integration, and web security.
                 </p>
                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                  I've worked with technologies like Golang, Spring Boot, Next.js, and PostgreSQL, and served as a mentor and problem setter for university contests. My experience spans web development, AI research, and competitive programming. I'm constantly learning and exploring new technologies to expand my skill set.
+                  I&apos;ve worked with technologies like Golang, Spring Boot, Next.js, and PostgreSQL, and served as a mentor and problem setter for university contests. My experience spans web development, AI research, and competitive programming. I&apos;m constantly learning and exploring new technologies to expand my skill set.
                 </p>
               </div>
               
