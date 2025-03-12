@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* Profile Image */}
-          <div className="order-2 md:order-1 flex justify-center md:justify-end animate-fade-in-down">
+          <div className="order-2 md:order-1 flex justify-center md:justify-start animate-fade-in-down">
             <div className="relative w-64 h-64 md:w-80 md:h-80 overflow-hidden rounded-full border-4 border-blue-600 shadow-xl">
               <Image 
                 src="/profile.jpg" 
@@ -26,10 +26,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Noman Chowdhury Munna
             </h1>
-            <h2 className="text-xl md:text-2xl font-medium text-gray-600 dark:text-gray-300 mb-6">
-            | Programmer | Open Source Contributor | Independent Security Researcher |
-
-            </h2> 
+            <h2 className="text-xl md:text-2xl font-medium text-gray-600 dark:text-gray-300 mb-6">| Programmer | Open Source Contributor | Independent Security Researcher |</h2> 
             
             <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-8">
               <a 
