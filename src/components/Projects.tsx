@@ -9,7 +9,7 @@ const Projects = () => {
       tags: ['Spring Boot', 'Next.js', 'PostgreSQL', 'AI', 'Healthcare'],
       status: 'In Progress',
       links: {
-        github: 'https://github.com/n0man-ch0wdhury',
+        github: 'https://github.com/Learnathon-By-Geeky-Solutions/javahaters',
       }
     },
     {
@@ -18,7 +18,7 @@ const Projects = () => {
       tags: ['Golang', 'Gin Framework', 'PostgreSQL', 'HTML/CSS', 'JavaScript'],
       status: 'Completed',
       links: {
-        github: 'https://github.com/n0man-ch0wdhury',
+        github: 'https://github.com/n0man-ch0wdhury/To-Do-Application',
       }
     },
     {
@@ -27,7 +27,7 @@ const Projects = () => {
       tags: ['PHP', 'HTML', 'CSS', 'Bootstrap', 'JavaScript', 'CMS'],
       status: 'Completed',
       links: {
-        github: 'https://github.com/n0man-ch0wdhury',
+        github: 'https://github.com/n0man-ch0wdhury/Multi-Vendor-Blogging-CMS',
       }
     }
   ];
