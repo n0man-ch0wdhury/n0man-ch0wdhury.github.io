@@ -68,7 +68,7 @@ const Hero = () => {
               className="mt-12 animate-fade-in"
             >
               <a 
-                href="https://drive.google.com/file/d/1Vmhadw4Ofue-Bbm9TWCffJD24OLG4NwD/view?usp=sharing" target='_blank'
+                href="https://drive.google.com/file/d/16ycsfdg8fOfDpn6UCKg7GIIm5xU8d_3H/view?usp=sharing" target='_blank'
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
               >
                 Resume
