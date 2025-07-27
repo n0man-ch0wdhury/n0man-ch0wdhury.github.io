@@ -176,16 +176,26 @@ const Achievements = () => {
                   </div>
                   <h3 className="text-lg font-semibold">Research Publications</h3>
                 </div>
-                
+              
                 <div className="space-y-4">
                   {publications.map((pub, index) => (
                     <div key={index} className="border-l-4 border-blue-600 pl-4 py-2">
-                      <h4 className="font-medium text-lg">{pub.title}</h4>
+                      <h4 className="font-medium text-lg">
+                        <a
+                          href="https://ieeexplore.ieee.org/document/11022351"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                        >
+                          {pub.title}
+                        </a>
+                      </h4>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Authors: {pub.authors}</p>
                     </div>
                   ))}
                 </div>
               </div>
+
             </div>
           </div>
         </div>
