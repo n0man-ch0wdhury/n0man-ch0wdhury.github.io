@@ -4,6 +4,18 @@ import { FaBriefcase, FaCode } from 'react-icons/fa';
 const Experience = () => {
   const experiences = [
     {
+      title: 'Junior Software Engineer | Backend',
+      company: 'Barikoi Technologies Ltd.',
+      location: 'Pallabi, Mirpur, Dhaka',
+      period: 'May 2025 - Present',
+      responsibilities: [
+        'OCR Model Tuning: Fine-tuned OCR models to extract and verify text from scanned bank documents.',
+        'Polygon Detection: Improved deep learning models to extract building polygons from aerial imagery.',
+        'ThirdEye360: Streetview for Barikoi Maps.'
+      ],
+      icon: <FaBriefcase className="text-blue-600" />
+    },
+    {
       title: 'Web Developer, Intern',
       company: 'Battery Low Interactive',
       location: 'Baridhara, Dhaka',
