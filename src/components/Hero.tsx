@@ -38,7 +38,7 @@ const Hero = () => {
                 <FaGithub /> GitHub
               </a>
               <a 
-                href="https://linktr.ee/n0man" 
+                href="https://linktr.ee/n0man_ch0wdhury" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-blue-900 px-4 py-2 rounded-full transition-colors"
