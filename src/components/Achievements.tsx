@@ -34,6 +34,7 @@ const Achievements = () => {
 
   // Cybersecurity Competitions
   const securityCompetitions = [
+    '8th at TechnoNext Cyber Invasion'25 CTF',
     '5th at BUET CTF 2023',
     '10th at National Cyber Drill 2021',
     '11th at University Cyber Drill 2022',
